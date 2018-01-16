@@ -2,12 +2,12 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
     "version": "1.0.0-beta.32.3",
-    "name": "new-cli"
+    "name": "recipe-book"
   },
   "apps": [
     {
       "root": "src",
-      "outDir": "c:/Dev/Udemy/Angular/optimizations-final/dist",
+      "outDir": "dist",
       "assets": [
         "assets",
         "favicon.ico"
