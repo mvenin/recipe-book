@@ -363,7 +363,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/auth/signin/signin.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2\">\n    <form (ngSubmit)=\"onSignin(f)\" #f=\"ngForm\">\n      <div class=\"form-group\">\n        <label for=\"email\">Mail</label>\n        <input type=\"email\" id=\"email\" name=\"email\" ngModel class=\"form-control\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"password\">Password</label>\n        <input\n          type=\"password\"\n          id=\"password\"\n          name=\"password\"\n          ngModel\n          class=\"form-control\">\n      </div>\n      <button class=\"btn btn-primary\" type=\"submit\" [disabled]=\"!f.valid\">Sign In</button>\n    </form>\n  </div>\n</div>\n\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2\">\n    <form (ngSubmit)=\"onSignin(f)\" #f=\"ngForm\">\n      <div class=\"form-group\">\n        <label for=\"email\">Mail</label>\n        <input type=\"email\" id=\"email\" name=\"email\" ngModel class=\"form-control\" placeholder=\"demo@app.net\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"password\">Password</label>\n        <input\n          type=\"password\"\n          id=\"password\"\n          name=\"password\"\n          ngModel\n          class=\"form-control\" placeholder=\"123456\">\n      </div>\n      <button class=\"btn btn-primary\" type=\"submit\" [disabled]=\"!f.valid\">Sign In</button>\n    </form>\n  </div>\n</div>\n\n"
 
 /***/ }),
 
@@ -624,7 +624,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/core/home/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"jumbotron jumbotron-fluid\" id=\"banner\">\n        <div class=\"parallax-pattern-overlay\">\n            <div class=\"container text-center\" id=\"size-banner\">\n                <h2 class=\"display-2\">Welcome to the Recipe Book</h2>\n                \n                <h3 class=\"banner-tag-line\">An Angular app with Bootstrap and Firebase</h3>\n                \n                <a href=\"https://github.com/mvenin/micro20\"\n                    class=\"btn btn-primary-outline btn-banner\">View on Github</a>\n            </div>\n            \n        </div>\n        \n</div>\n\n<hr/>\n<img class=\"center-block\" src=\"assets/images/shield-large.png\"/>\n\n\n"
+module.exports = "<div class=\"jumbotron jumbotron-fluid\" id=\"banner\">\n        <div class=\"parallax-pattern-overlay\">\n            <div class=\"container text-center\" id=\"size-banner\">\n                <h2 class=\"display-2\">Welcome to the Recipe Book</h2>\n                \n                <h3 class=\"banner-tag-line\">An Angular app with Bootstrap and Firebase</h3>\n                \n                <a href=\"https://github.com/mvenin/recipe-book\"\n                    class=\"btn btn-primary-outline btn-banner\">View on Github</a>\n            </div>\n            \n        </div>\n        \n</div>\n\n<hr/>\n<img class=\"center-block\" src=\"assets/images/shield-large.png\"/>\n\n\n"
 
 /***/ }),
 
