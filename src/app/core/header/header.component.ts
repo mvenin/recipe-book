@@ -9,8 +9,19 @@ import { AuthService } from '../../auth/auth.service';
   templateUrl: './header.component.html'
 })
 export class HeaderComponent {
+  isIn = false;   // store state
+  
   constructor(private dataStorageService: DataStorageService,
               private authService: AuthService) {
+  }
+   
+  toggleState() { // click handler
+      let bool = this.isIn;
+      this.isIn = bool === false ? true : false; 
+  }
+
+  getToggleState(): boolean {
+    return this.isIn;
   }
 
   onSaveData() {
